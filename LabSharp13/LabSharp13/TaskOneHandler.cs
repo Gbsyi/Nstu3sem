@@ -17,6 +17,7 @@ public static class TaskOneHandler
         
         PrintList(list);
 
+        AppUtils.WriteDivider();
         Console.WriteLine("Введите индекс для удаления");
         if (!int.TryParse(Console.ReadLine(), out var index))
         {
@@ -26,6 +27,7 @@ public static class TaskOneHandler
         list.RemoveAt(index);
         PrintList(list);
         
+        AppUtils.WriteDivider();
         Console.WriteLine("Введите значение для поиска");
         var value = Console.ReadLine();
         Console.WriteLine($"Поиск элемента со значением {value}");

@@ -14,9 +14,11 @@ public static class TaskTwoHandler
         }
         
         // A
+        AppUtils.WriteDivider();
         PrintCollection(list);
         
         // B
+        AppUtils.WriteDivider();
         Console.WriteLine("Введите количество элементов для удаления");
         if (!int.TryParse(Console.ReadLine(), out var count))
         {
@@ -31,14 +33,23 @@ public static class TaskTwoHandler
         PrintCollection(list);
         
         // C
+        AppUtils.WriteDivider();
         Console.WriteLine("Добавляем 10 элементов");
-        for (var i = 0; i < 10; i++)
+        for (var i = 0; i < 4; i++)
         {
             list.AddLast(rand.Next(0, 100) % 2 == 0);
         }
+        for (var i = 0; i < 4; i++)
+        {
+            list.AddFirst(rand.Next(0, 100) % 2 == 0);
+        }
+        list.AddBefore(list.Last!, rand.Next(0, 100) % 2 == 0);
+        list.AddAfter(list.First!, rand.Next(0, 100) % 2 == 0);
+
         PrintCollection(list);
         
         // D
+        AppUtils.WriteDivider();
         var dict = new Dictionary<int, bool>();
         using (var listEnumerator = list.GetEnumerator())
         {
@@ -50,9 +61,11 @@ public static class TaskTwoHandler
         }
         
         // E
+        AppUtils.WriteDivider();
         PrintCollection(dict);
         
         // F
+        AppUtils.WriteDivider();
         Console.WriteLine("Введите ключ для поиска");
         if (!int.TryParse(Console.ReadLine(), out var key))
         {

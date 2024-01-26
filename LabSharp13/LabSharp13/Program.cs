@@ -3,3 +3,7 @@
 TaskOneHandler.Handle();
 
 TaskTwoHandler.Handle();
+
+TaskThreeHandler.Handle();
+
+TaskFourHandler.Handle();
