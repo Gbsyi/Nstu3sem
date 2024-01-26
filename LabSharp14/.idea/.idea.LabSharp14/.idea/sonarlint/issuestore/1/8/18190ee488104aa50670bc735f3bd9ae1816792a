@@ -1,0 +1,8 @@
+
+;csharpsquid:S2933"Make 'months' 'readonly'.(ÅŸ…Åÿÿÿÿÿ
+\csharpsquid:S1481
+"8Remove the unused local variable 'summerOrWinterMonths'.(ãõÊé8ï‡…‰Ó1
+Zcsharpsquid:S1481"1Remove the unused local variable 'nLengthMonths'.(ëÌÑšûÿÿÿÿ8•Û…‰Ó1
+[csharpsquid:S1481"8Remove the unused local variable 'monthsAlphabetically'.(“õL8•Û…‰Ó1
+Zcsharpsquid:S1481"1Remove the unused local variable 'countOfMonths'.(‡ş…˜úÿÿÿÿ8•Û…‰Ó1
+pcsharpsquid:S1481"GRemove the unused local variable 'monthsWithUAndLongerThanFourLetters'.(¶³¼øıÿÿÿÿ8•Û…‰Ó1
